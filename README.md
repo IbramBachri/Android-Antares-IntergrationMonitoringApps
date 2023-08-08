@@ -1,20 +1,3 @@
-# Project Repository
-
-Thank you for visiting the repository for my project! If you have any questions, feedback, or would like to learn more about the project, I invite you to explore my website:
-
-🌐 [Visit my website](https://ibrambachri.github.io/)
-
-Feel free to take a look around to learn more about me and my projects. If you find something interesting or have any inquiries related to the project, you can contact me through the contact information provided on my website.
-
-## Contact Information
-
-- Email: ibrambachri@gmail
-- LinkedIn: IBRAM MUHARAM BACHRI (https://www.linkedin.com/in/ibrambachri/)
-- Twitter: imrnbchr
-
-I'm excited to connect with fellow developers and enthusiasts, so don't hesitate to reach out if you have any questions, suggestions, or just want to say hello!
-
-Happy coding! 🚀
 # Integration with Antares Cloud using XML and Retrofit
 
 This guide will walk you through the process of integrating your project with the Antares Cloud using XML and Retrofit. We'll be using the following libraries for this integration:
@@ -38,7 +21,7 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
 }
-
+```
 
 ## Network Module for Antares Cloud Integration
 
@@ -74,6 +57,21 @@ fun provideRetrofit(): Retrofit {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 }
+```
+# Project Repository
 
+Thank you for visiting the repository for my project! If you have any questions, feedback, or would like to learn more about the project, I invite you to explore my website:
 
+🌐 [Visit my website](https://ibrambachri.github.io/)
 
+Feel free to take a look around to learn more about me and my projects. If you find something interesting or have any inquiries related to the project, you can contact me through the contact information provided on my website.
+
+## Contact Information
+
+- Email: ibrambachri@gmail
+- LinkedIn: IBRAM MUHARAM BACHRI (https://www.linkedin.com/in/ibrambachri/)
+- Twitter: imrnbchr
+
+I'm excited to connect with fellow developers and enthusiasts, so don't hesitate to reach out if you have any questions, suggestions, or just want to say hello!
+
+Happy coding! 🚀
