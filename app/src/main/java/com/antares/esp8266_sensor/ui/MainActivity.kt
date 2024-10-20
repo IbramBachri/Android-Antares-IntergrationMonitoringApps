@@ -63,6 +63,8 @@ class MainActivity : AppCompatActivity() {
                 binding.txtTemperature.visibility = View.VISIBLE
                 binding.txtTemperatureHeader.visibility = View.VISIBLE
 
+                //for-test-change
+
                 content.countPeople?.let { count ->
                     binding.txtPeople.text = count.count.toString()
                 }
